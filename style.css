@@ -1,0 +1,151 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+/* banner */
+.banner{
+    background-image: url(image/banner.jpg);
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* navigation bar */
+.nav-link{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    font-size: larger;
+    padding-bottom:7px;
+}
+
+.nav-link:hover{
+    background: white;
+    border-bottom: 1px solid black;
+
+}
+
+/* checking form */
+.checking{
+    position: relative;
+    bottom: 50px;
+    border-radius:20px;
+    
+
+}
+
+
+/* middle heading */
+.txt{
+    color:#21cc7a;
+    font-size: larger;
+}
+
+.txt1{
+        background-color: #21cc7a;
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        font-family:cursive;
+        font-weight: 400;
+}
+
+.subheading {
+    
+    font-size: 13px;
+    display: block;
+    margin-bottom: 5px;
+    color: #21cc7a;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    font-weight: 700;
+}
+
+.you
+{
+    letter-spacing: 1.02px;
+}
+
+
+
+
+/* facility */
+.circle{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    left: 25%;
+    position: relative;
+    top: 50px;
+    box-shadow: 1.02px 1.00px 1px black;
+}
+
+
+
+.hety{
+    height: 400px;
+}
+
+
+.upload{
+    height:120px;
+}
+
+.upload2:hover{
+   background-color: #21cc7a;
+}
+
+.new{
+    margin-top: 50px;
+}
+
+/* rooms cards */
+
+    .r-card{
+        background-color: white;
+        border-radius: 0;
+    }
+
+    .r-card:hover{
+        background-color: rgb(54, 57, 223);
+        color: white;
+    }
+
+
+
+    /* Restaurant */
+
+  .text{
+    width: calc(100% - 80px);
+        font-size: 20px;
+            font-weight: 500;
+                color: #000000;
+
+  }
+
+
+  .blog-text{
+    color: black;
+  }
+
+  .blog-text:hover{
+    color: #21cc7a;
+    font-weight: 500;
+  }
+
+
+  /* footer */
+
+  .footer li{
+    margin-top: 20px;
+   
+
+  }
+
+  .foot{
+    background-color: white;
+    color: #000000;
+  }
