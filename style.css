@@ -149,3 +149,61 @@ body{
     background-color: white;
     color: #000000;
   }
+
+  @media (max-width: 768px) {
+    .banner {
+        height: 300px;
+    }
+
+    .nav-link {
+        font-size: medium;
+        padding-bottom: 5px;
+    }
+
+    .checking {
+        bottom: 20px;
+    }
+
+    .txt {
+        font-size: medium;
+    }
+
+    .subheading {
+        font-size: 11px;
+    }
+
+    .circle {
+        height: 80px;
+        width: 80px;
+        left: 20%;
+        top: 20px;
+    }
+
+    .hety {
+        height: 300px;
+    }
+
+    .upload {
+        height: 80px;
+    }
+
+    .new {
+        margin-top: 30px;
+    }
+
+    .r-card {
+        font-size: small;
+    }
+
+    .text {
+        font-size: 16px;
+    }
+
+    .footer li {
+        margin-top: 10px;
+    }
+
+    .foot {
+        padding: 10px;
+    }
+}
